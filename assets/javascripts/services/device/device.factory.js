@@ -4,9 +4,9 @@
   angular.module('deviceFactory', [])
     .factory('deviceFactory', deviceFactory);
 
-  deviceFactory.$inject = ['$http'];
+  deviceFactory.$inject = ['$http', '$q'];
 
-  function deviceFactory($http) {
+  function deviceFactory($http, $q) {
     return {
       get: get
     };
@@ -14,13 +14,19 @@
     ////////////////////////
 
     function get() {
-      return (
-        $http.get('/fixtures/devices.json').then(getCollectionComplete).catch(getCollectionFailed)
-      );
+      $http.get('assets/javascripts/fixtures/devices.json')
+        .then(getCollectionComplete)
+        .catch(getCollectionFailed);
     }
 
-    function getCollectionComplete(data) {
-      return data;
+    function getCollectionComplete(response) {
+      debugger;
+      return $q.resolve(response);
+    }
+
+    function getCollectionFailed(error) {
+      debugger;
+      return $q.reject(error);
     }
   }
 })();

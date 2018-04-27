@@ -10,6 +10,7 @@
 
   function DeviceTableController(deviceFactory) {
     var vm = this;
+    var devices = deviceFactory;
 
     // Scope Variables
     vm.collection = [];
@@ -23,12 +24,9 @@
     ////////////////////////
 
     function onInit() {
-      getDeviceCollection();
-    }
-
-
-    function getDeviceCollection() {
-      vm.collection = deviceFactory.get();
+      devices.get().then(function(res) {
+        debugger;
+      });
     }
   }
 })();
