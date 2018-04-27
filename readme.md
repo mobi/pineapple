@@ -1,6 +1,6 @@
 # Project _Pineapple_
 
-The goal of this project is to allow developer candidates to display their ability to deliver clean
+This project allows developer candidates to display their ability to deliver clean
 and usable code using AngularJS in a timely manner. Candidates will receive feedback on their coding
 style, substance, and completeness following the exercise.
 
@@ -11,6 +11,7 @@ style, substance, and completeness following the exercise.
 - [ ] Make sure you have [Node](https://nodejs.org/en/download/package-manager/) installed on your
 development machine
 - [ ] Clone this project into your personal Github repository
+- [ ] Create a branch of this project to store your work during deliverables
 - [ ] Review the project's file structure to prepare for tackling deliverables
 - [ ] From the command line, traverse into the project's root folder and type `npm install`
 - [ ] After installation completes, type `npm start` and [open a browser window to view the
@@ -21,6 +22,7 @@ project](http://127.0.0.1:8080/)
 - [ ] Add a search filter for the table of device data. The user should be able to type a string of
 text and see the collection of devices update in real time.
 - [ ] All tests should pass when executing `npm test` on the command line
+- [ ] Create a pull request for your work and assign contributors `@hoosierplew` and `@wagz`
 
 ## Bonus Deliverable
 
