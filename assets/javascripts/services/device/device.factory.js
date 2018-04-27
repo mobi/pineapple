@@ -14,18 +14,18 @@
     ////////////////////////
 
     function get() {
-      $http.get('assets/javascripts/fixtures/devices.json')
-        .then(getCollectionComplete)
-        .catch(getCollectionFailed);
+      return (
+        $http.get('assets/javascripts/fixtures/devices.json')
+          .then(getCollectionComplete)
+          .catch(getCollectionFailed)
+      );
     }
 
     function getCollectionComplete(response) {
-      debugger;
-      return $q.resolve(response);
+      return $q.resolve(response.data);
     }
 
     function getCollectionFailed(error) {
-      debugger;
       return $q.reject(error);
     }
   }

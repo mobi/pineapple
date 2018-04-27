@@ -25,7 +25,7 @@
 
     function onInit() {
       devices.get().then(function(res) {
-        debugger;
+        vm.collection = res;
       });
     }
   }

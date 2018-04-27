@@ -1,18 +1,17 @@
-<form action="">
-  <input type="search" placeholder="Search for a device" ng-model="$ctrl.searchValue"></input>
-</form>
-<table>
+<table class="table">
   <caption>Company Devices</caption>
   <thead>
     <tr>
-      <th ng-repeat="header in $ctrl.collection.headers track by $index">
-        {{ header.full_label }}
+      <th ng-repeat="header in $ctrl.collection.headers track by $index"
+          ng-bind="header.full_label">
       </th>
     </tr>
   </thead>
   <tbody>
     <tr ng-repeat="row in $ctrl.collection.rows">
-      <td ng-repeat="column in row track by $index" ng-bind-html="column"></td>
+      <td ng-repeat="column in row track by $index"
+          ng-bind="column">
+      </td>
     </tr>
   </tbody>
 </table>
