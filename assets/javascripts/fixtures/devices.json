@@ -15,818 +15,610 @@
       "full_label": "Device -> Group"
     },
     {
-      "label": "Cost Center",
-      "full_label": "Device -> Cost Center"
-    },
-    {
       "label": "Device Category",
       "full_label": "Device -> Device Category"
-    },
-    {
-      "label": "Identifier",
-      "full_label": "Device -> Identifier"
     }
   ],
   "rows": [
     [
-      "<span class=\"table_image_text\">Apple iPad 4 16GB - Black</span>",
-      "<a href=\"#\">Alivia Mohr</a>",
+      "Apple iPad 4 16GB - Black",
+      "Alivia Mohr",
       "National Configuration Executives",
-      "1000123464",
-      "Tablet",
-      "<a href=\"#\">990002366452108</a>"
+      "Tablet"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Lane Dibbert</a>",
+      "Apple iPhone",
+      "Lane Dibbert",
       "Customer Integration Producers",
-      "1081900027",
-      "Smart Phone",
-      "<a href=\"#\">354956072806768</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Chelsea Schowalter</a>",
+      "Apple iPhone",
+      "Chelsea Schowalter",
       "National Configuration Executives",
-      "1000102248",
-      "Smart Phone",
-      "<a href=\"#\">353057099229547</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Frederic Reynolds</a>",
+      "Android Smartphone -BYOM",
+      "Frederic Reynolds",
       "Human Solutions Agents",
-      "P6912500",
-      "Smart Phone",
-      "<a href=\"#\">010019348010</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">ZTE MF79S</span>",
-      "<a href=\"#\">Leda Altenwerth</a>",
+      "ZTE MF79S",
+      "Leda Altenwerth",
       "Human Tactics Administrators",
-      "1068221035",
-      "Data Card",
-      "<a href=\"#\">869594020278844</a>"
+      "Data Card"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Muriel Lubowitz</a>",
+      "Apple iPhone",
+      "Muriel Lubowitz",
       "Customer Integration Producers",
-      "1081920315",
-      "Smart Phone",
-      "<a href=\"#\">359226060248455</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Kim Kunde</a>",
+      "Android Smartphone -BYOM",
+      "Kim Kunde",
       "Human Intranet Strategists",
-      "PB716400",
-      "Smart Phone",
-      "<a href=\"#\">865548030390928</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Celestino Gleichner</a>",
+      "Apple iPhone",
+      "Celestino Gleichner",
       "Future Directives Facilitators",
-      "P4563800",
-      "Smart Phone",
-      "<a href=\"#\">013984008359168</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Evert Larson</a>",
+      "Apple iPhone",
+      "Evert Larson",
       "Human Metrics Producers",
-      "1076071009",
-      "Smart Phone",
-      "<a href=\"#\">355415079965506</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Dee Block</a>",
+      "Apple iPhone",
+      "Dee Block",
       "Human Metrics Producers",
-      "1076071009",
-      "Smart Phone",
-      "<a href=\"#\">353817089691026</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Chelsea Kshlerin</a>",
+      "Apple iPhone",
+      "Chelsea Kshlerin",
       "National Configuration Executives",
-      "1000301929",
-      "Smart Phone",
-      "<a href=\"#\">359463084934253</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Alfredo Adams</a>",
+      "Apple iPhone",
+      "Alfredo Adams",
       "Human Tactics Administrators",
-      "1068205215",
-      "Smart Phone",
-      "<a href=\"#\">354828090527264</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Generic Phone</span>",
-      "<a href=\"#\">Ocie Marquardt</a>",
+      "Generic Phone",
+      "Ocie Marquardt",
       "Human Solutions Agents",
-      "P6912540",
-      "Phone",
-      "<a href=\"#\">354638058412080</a>"
+      "Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Hope Schuster</a>",
+      "Android Smartphone -BYOM",
+      "Hope Schuster",
       "Human Solutions Agents",
-      "P6912500",
-      "Smart Phone",
-      "<a href=\"#\">01001655863</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Miracle Kessler</a>",
+      "Android Smartphone -BYOM",
+      "Miracle Kessler",
       "Direct Response Technicians",
-      "P9265510",
-      "Smart Phone",
-      "<a href=\"#\">357820080957186</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Vanessa Davis</a>",
+      "Apple iPhone",
+      "Vanessa Davis",
       "Customer Integration Producers",
-      "1217664510",
-      "Smart Phone",
-      "<a href=\"#\">353256073143019</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Devin Kessler</a>",
+      "Android Smartphone -BYOM",
+      "Devin Kessler",
       "National Configuration Executives",
-      "P9665020",
-      "Smart Phone",
-      "<a href=\"#\">355418090457008</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Simone Hand</a>",
+      "Android Smartphone -BYOM",
+      "Simone Hand",
       "National Optimization Directors",
-      "5057213210",
-      "Smart Phone",
-      "<a href=\"#\">866463039003747</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 6s 32GB</span>",
-      "<a href=\"#\">Domenica Jones</a>",
+      "Apple iPhone 6s 32GB",
+      "Domenica Jones",
       "Human Intranet Strategists",
-      "1071410121",
-      "Smart Phone",
-      "<a href=\"#\">359485086907250</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Hildegard Schroeder</a>",
+      "Apple iPhone",
+      "Hildegard Schroeder",
       "Human Solutions Agents",
-      "P9608511",
-      "Smart Phone",
-      "<a href=\"#\">359214075704365</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Caden Runolfsson</a>",
+      "Android Smartphone -BYOM",
+      "Caden Runolfsson",
       "Human Solutions Agents",
-      "P9608030",
-      "Smart Phone",
-      "<a href=\"#\">356397089475206</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Susana Johnston</a>",
+      "Android Smartphone -BYOM",
+      "Susana Johnston",
       "Human Solutions Agents",
-      "P6912401",
-      "Smart Phone",
-      "<a href=\"#\">19192XXUCNJ3</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Edwina Gulgowski</a>",
+      "Android Smartphone -BYOM",
+      "Edwina Gulgowski",
       "Investor Program Architects",
-      "1082831327",
-      "Smart Phone",
-      "<a href=\"#\">355228080868670</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Antone Gerhold</a>",
+      "Apple iPhone",
+      "Antone Gerhold",
       "Corporate Creative Facilitators",
-      "P0336800",
-      "Smart Phone",
-      "<a href=\"#\">359141078829966</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Skylar Green</a>",
+      "Android Smartphone -BYOM",
+      "Skylar Green",
       "Investor Paradigm Developers",
-      "P2557001",
-      "Smart Phone",
-      "<a href=\"#\">359864060578032</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Kylee Konopelski</a>",
+      "Android Smartphone -BYOM",
+      "Kylee Konopelski",
       "National Optimization Directors",
-      "1057231853",
-      "Smart Phone",
-      "<a href=\"#\">868049027434594</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Riley Hoeger</a>",
+      "Apple iPhone",
+      "Riley Hoeger",
       "Human Intranet Strategists",
-      "PB716400",
-      "Smart Phone",
-      "<a href=\"#\">352990091877908</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Black</span>",
-      "<a href=\"#\">Assunta Donnelly</a>",
+      "Apple iPhone 7 32GB - Black",
+      "Assunta Donnelly",
       "National Configuration Executives",
-      "1000101010",
-      "Smart Phone",
-      "<a href=\"#\">359464085903560</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Black</span>",
-      "<a href=\"#\">Saige Graham</a>",
+      "Apple iPhone 7 32GB - Black",
+      "Saige Graham",
       "National Configuration Executives",
-      "1000301559",
-      "Smart Phone",
-      "<a href=\"#\">359464085686017</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Silver</span>",
-      "<a href=\"#\">Cheyenne Boyer</a>",
+      "Apple iPhone 7 32GB - Silver",
+      "Cheyenne Boyer",
       "Senior Program Liaisons",
-      "1203921067",
-      "Smart Phone",
-      "<a href=\"#\">355853080317855</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475560",
-      "Smart Phone",
-      "<a href=\"#\">353067091890048</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "",
-      "Smart Phone",
-      "<a href=\"#\">353067091861544</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475522",
-      "Smart Phone",
-      "<a href=\"#\">353067091847592</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475521",
-      "Smart Phone",
-      "<a href=\"#\">353067091861643</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "1057966062",
-      "Smart Phone",
-      "<a href=\"#\">353065092022116</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475522",
-      "Smart Phone",
-      "<a href=\"#\">353065092021944</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475522",
-      "Smart Phone",
-      "<a href=\"#\">353067091889826</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475560",
-      "Smart Phone",
-      "<a href=\"#\">353067091847618</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475560",
-      "Smart Phone",
-      "<a href=\"#\">353065092022017</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475560",
-      "Smart Phone",
-      "<a href=\"#\">353067091890055</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475141",
-      "Smart Phone",
-      "<a href=\"#\">353067091890006</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475560",
-      "Smart Phone",
-      "<a href=\"#\">353067091860884</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "1057966062",
-      "Smart Phone",
-      "<a href=\"#\">353067091860116</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "1057966062",
-      "Smart Phone",
-      "<a href=\"#\">353067091846081</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475560",
-      "Smart Phone",
-      "<a href=\"#\">353065092018767</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475141",
-      "Smart Phone",
-      "<a href=\"#\">353067091888612</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "1057966062",
-      "Smart Phone",
-      "<a href=\"#\">353067091846248</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475521",
-      "Smart Phone",
-      "<a href=\"#\">353067091889149</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475251",
-      "Smart Phone",
-      "<a href=\"#\">353067091847659</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "",
-      "Smart Phone",
-      "<a href=\"#\">353067091861395</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475560",
-      "Smart Phone",
-      "<a href=\"#\">353065092021134</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475521",
-      "Smart Phone",
-      "<a href=\"#\">353067091845893</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "1057966062",
-      "Smart Phone",
-      "<a href=\"#\">353067091846321</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone SE 32GB</span>",
+      "Apple iPhone SE 32GB",
       "",
       "",
-      "P2475521",
-      "Smart Phone",
-      "<a href=\"#\">353067091859654</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Black</span>",
-      "<a href=\"#\">Micah Reinger</a>",
+      "Apple iPhone 7 32GB - Black",
+      "Micah Reinger",
       "National Configuration Executives",
-      "5000107918",
-      "Smart Phone",
-      "<a href=\"#\">359467085687562</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Verizon Jetpack 4G LTE Mobi</span>",
-      "<a href=\"#\">Dina Conroy</a>",
+      "Verizon Jetpack 4G LTE Mobi",
+      "Dina Conroy",
       "National Configuration Executives",
-      "5000301930",
-      "Data Card",
-      "<a href=\"#\">359071068166584</a>"
+      "Data Card"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Black</span>",
-      "<a href=\"#\">Norberto Dibbert</a>",
+      "Apple iPhone 7 32GB - Black",
+      "Norberto Dibbert",
       "National Configuration Executives",
-      "2000105587",
-      "Smart Phone",
-      "<a href=\"#\">359464085922933</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Wilhelm Lemke</a>",
+      "Android Smartphone -BYOM",
+      "Wilhelm Lemke",
       "Human Tactics Administrators",
-      "P9245400",
-      "Smart Phone",
-      "<a href=\"#\">358668080780119</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Cory Kovacek</a>",
+      "Apple iPhone",
+      "Cory Kovacek",
       "Chief Branding Technicians",
-      "1053621001",
-      "Smart Phone",
-      "<a href=\"#\">355789071726805</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Dereck Goodwin</a>",
+      "Android Smartphone -BYOM",
+      "Dereck Goodwin",
       "Senior Program Liaisons",
-      "1203914017",
-      "Smart Phone",
-      "<a href=\"#\">R38G40ZCWLE</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Black</span>",
-      "<a href=\"#\">Clemmie Cummings</a>",
+      "Apple iPhone 7 32GB - Black",
+      "Clemmie Cummings",
       "National Configuration Executives",
-      "1000505146",
-      "Smart Phone",
-      "<a href=\"#\">359464085943152</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">LG Revere 3</span>",
-      "<a href=\"#\">Elvera Schmeler</a>",
+      "LG Revere 3",
+      "Elvera Schmeler",
       "National Configuration Executives",
-      "PU011515",
-      "Phone",
-      "<a href=\"#\">014864001706699</a>"
+      "Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Carolina Witting</a>",
+      "Apple iPhone",
+      "Carolina Witting",
       "Corporate Creative Facilitators",
-      "1204166051",
-      "Smart Phone",
-      "<a href=\"#\">359498086279687</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Deon Hansen</a>",
+      "Android Smartphone -BYOM",
+      "Deon Hansen",
       "Direct Response Technicians",
-      "P9265509",
-      "Smart Phone",
-      "<a href=\"#\">356481082261233</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Gilbert Hyatt</a>",
+      "Apple iPhone",
+      "Gilbert Hyatt",
       "National Configuration Executives",
-      "1006910804",
-      "Smart Phone",
-      "<a href=\"#\">352989094063425</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Kieran Schultz</a>",
+      "Android Smartphone -BYOM",
+      "Kieran Schultz",
       "Investor Paradigm Developers",
-      "P2557002",
-      "Smart Phone",
-      "<a href=\"#\">355212093114421</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Dorthy Koepp</a>",
+      "Android Smartphone -BYOM",
+      "Dorthy Koepp",
       "Human Solutions Agents",
-      "1214932350",
-      "Smart Phone",
-      "<a href=\"#\">352008095655830</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Bennett Spinka</a>",
+      "Apple iPhone",
+      "Bennett Spinka",
       "Human Solutions Agents",
-      "1214932349",
-      "Smart Phone",
-      "<a href=\"#\">352016069351666</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Broderick Beatty</a>",
+      "Apple iPhone",
+      "Broderick Beatty",
       "Investor Program Architects",
-      "1082832020",
-      "Smart Phone",
-      "<a href=\"#\">353311074738489</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Sammy Witting</a>",
+      "Apple iPhone",
+      "Sammy Witting",
       "National Configuration Executives",
-      "1000166032",
-      "Smart Phone",
-      "<a href=\"#\">359460083185358</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Elnora Cummings</a>",
+      "Apple iPhone",
+      "Elnora Cummings",
       "Human Intranet Strategists",
-      "1071400005",
-      "Smart Phone",
-      "<a href=\"#\">359407088105584</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Liana Legros</a>",
+      "Apple iPhone",
+      "Liana Legros",
       "Human Solutions Agents",
-      "P6912500",
-      "Smart Phone",
-      "<a href=\"#\">355771079987316</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Lamont Olson</a>",
+      "Apple iPhone",
+      "Lamont Olson",
       "Human Solutions Agents",
-      "1214932354",
-      "Smart Phone",
-      "<a href=\"#\">352047064018844</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Mariano Feeney</a>",
+      "Apple iPhone",
+      "Mariano Feeney",
       "Investor Program Architects",
-      "1060632384",
-      "Smart Phone",
-      "<a href=\"#\">356569081034310</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Justus Wiza</a>",
+      "Android Smartphone -BYOM",
+      "Justus Wiza",
       "Human Solutions Agents",
-      "P6912539",
-      "Smart Phone",
-      "<a href=\"#\">samsong</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Cleve Thompson</a>",
+      "Apple iPhone",
+      "Cleve Thompson",
       "Human Solutions Agents",
-      "1214932356",
-      "Smart Phone",
-      "<a href=\"#\">351985069430004</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 5s 16GB</span>",
-      "<a href=\"#\">Camden Batz</a>",
+      "Apple iPhone 5s 16GB",
+      "Camden Batz",
       "Human Tactics Administrators",
-      "1068220000",
-      "Smart Phone",
-      "<a href=\"#\">355668076348452</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Reese Willms</a>",
+      "Android Smartphone -BYOM",
+      "Reese Willms",
       "Human Solutions Agents",
-      "1214932358",
-      "Smart Phone",
-      "<a href=\"#\">868373030331484</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 6s 32GB</span>",
-      "<a href=\"#\">Sunny Heathcote</a>",
+      "Apple iPhone 6s 32GB",
+      "Sunny Heathcote",
       "Human Intranet Strategists",
-      "1071410130",
-      "Smart Phone",
-      "<a href=\"#\">359485087314910</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">D-Link 4G LTE USB Router DW</span>",
-      "<a href=\"#\">Monty Homenick</a>",
+      "D-Link 4G LTE USB Router DW",
+      "Monty Homenick",
       "Human Tactics Administrators",
-      "1068221033",
-      "Router",
-      "<a href=\"#\">RD2O1G6008328</a>"
+      "Router"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 6s 32GB</span>",
-      "<a href=\"#\">Lea Stanton</a>",
+      "Apple iPhone 6s 32GB",
+      "Lea Stanton",
       "Human Intranet Strategists",
-      "1071410121",
-      "Smart Phone",
-      "<a href=\"#\">359487086544083</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPad (2017) 32GB</span>",
-      "<a href=\"#\">Salvatore Leannon</a>",
+      "Apple iPad (2017) 32GB",
+      "Salvatore Leannon",
       "National Configuration Executives",
-      "1000306512",
-      "Tablet",
-      "<a href=\"#\">SGG7VXMGKHLF9</a>"
+      "Tablet"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPad (2017) 32GB</span>",
-      "<a href=\"#\">Tremayne Kulas</a>",
+      "Apple iPad (2017) 32GB",
+      "Tremayne Kulas",
       "Regional Branding Facilitators",
-      "1027066068",
-      "Tablet",
-      "<a href=\"#\">355803088703325</a>"
+      "Tablet"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Alfredo Keebler</a>",
+      "Apple iPhone",
+      "Alfredo Keebler",
       "Future Directives Facilitators",
-      "1078567223",
-      "Smart Phone",
-      "<a href=\"#\">358567072970144</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 Plus 128GB</span>",
-      "<a href=\"#\">Jennifer Marks</a>",
+      "Apple iPhone 7 Plus 128GB",
+      "Jennifer Marks",
       "National Configuration Executives",
-      "5000105779",
-      "Smart Phone",
-      "<a href=\"#\">359468083925079</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Black</span>",
-      "<a href=\"#\">Silas Champlin</a>",
+      "Apple iPhone 7 32GB - Black",
+      "Silas Champlin",
       "National Configuration Executives",
-      "4000102278",
-      "Smart Phone",
-      "<a href=\"#\">359467085858916</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Black</span>",
-      "<a href=\"#\">Jerad Kunze</a>",
+      "Apple iPhone 7 32GB - Black",
+      "Jerad Kunze",
       "National Configuration Executives",
-      "1000306506",
-      "Smart Phone",
-      "<a href=\"#\">359467085845145</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Bart Schaden</a>",
+      "Apple iPhone",
+      "Bart Schaden",
       "Human Intranet Strategists",
-      "PB716420",
-      "Smart Phone",
-      "<a href=\"#\">352034065646849</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Android Smartphone -BYOM</span>",
-      "<a href=\"#\">Isom Macejkovic</a>",
+      "Android Smartphone -BYOM",
+      "Isom Macejkovic",
       "Customer Integration Producers",
-      "1081900678",
-      "Smart Phone",
-      "<a href=\"#\">866224032522848</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Berta Lakin</a>",
+      "Apple iPhone",
+      "Berta Lakin",
       "Human Intranet Strategists",
-      "5237305011",
-      "Smart Phone",
-      "<a href=\"#\">356762085890296</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Silver</span>",
-      "<a href=\"#\">Graham Auer</a>",
+      "Apple iPhone 7 32GB - Silver",
+      "Graham Auer",
       "Senior Program Liaisons",
-      "1203921073",
-      "Smart Phone",
-      "<a href=\"#\">353837089069015</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Kayley Koss</a>",
+      "Apple iPhone",
+      "Kayley Koss",
       "Human Solutions Agents",
-      "1214932349",
-      "Smart Phone",
-      "<a href=\"#\">352052064289684</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Oma Bartell</a>",
+      "Apple iPhone",
+      "Oma Bartell",
       "National Configuration Executives",
-      "1000183034",
-      "Smart Phone",
-      "<a href=\"#\">353049097806699</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone</span>",
-      "<a href=\"#\">Francesca Mraz</a>",
+      "Apple iPhone",
+      "Francesca Mraz",
       "Product Optimization Analysts",
-      "1075327984",
-      "Smart Phone",
-      "<a href=\"#\">353812085599398</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">LG Terra</span>",
-      "<a href=\"#\">Breana Stehr</a>",
+      "LG Terra",
+      "Breana Stehr",
       "National Configuration Executives",
-      "PU011543",
-      "Phone",
-      "<a href=\"#\">014864001582595</a>"
+      "Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 5s 16GB</span>",
-      "<a href=\"#\">Camden Batz</a>",
+      "Apple iPhone 5s 16GB",
+      "Camden Batz",
       "Human Tactics Administrators",
-      "1068220000",
-      "Smart Phone",
-      "<a href=\"#\">359267065543334</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Black</span>",
+      "Apple iPhone 7 32GB - Black",
       "",
       "",
-      "",
-      "Smart Phone",
-      "<a href=\"#\">352985094457203</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Black</span>",
+      "Apple iPhone 7 32GB - Black",
       "",
       "",
-      "",
-      "Smart Phone",
-      "<a href=\"#\">352985094583495</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Black</span>",
+      "Apple iPhone 7 32GB - Black",
       "",
       "",
-      "",
-      "Smart Phone",
-      "<a href=\"#\">352985094583933</a>"
+      "Smart Phone"
     ],
     [
-      "<span class=\"table_image_text\">Apple iPhone 7 32GB - Black</span>",
+      "Apple iPhone 7 32GB - Black",
       "",
       "",
-      "",
-      "Smart Phone",
-      "<a href=\"#\">352985094787922</a>"
+      "Smart Phone"
     ]
   ],
   "collection_entries": 100
