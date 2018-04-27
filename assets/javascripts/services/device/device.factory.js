@@ -8,18 +8,19 @@
 
   function deviceFactory($http) {
     return {
-      get: get,
-      set: set
+      get: get
     };
 
     ////////////////////////
 
     function get() {
-      // Get Something
+      return (
+        $http.get('/fixtures/devices.json').then(getCollectionComplete).catch(getCollectionFailed)
+      );
     }
 
-    function set() {
-      // Set Something
+    function getCollectionComplete(data) {
+      return data;
     }
-  };
+  }
 })();
