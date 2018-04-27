@@ -1,41 +1,18 @@
-<h1>Hello World</h1>
+<form action="">
+  <input type="search" placeholder="Search for a device" ng-model="$ctrl.searchValue"></input>
+</form>
 <table>
+  <caption>Company Devices</caption>
   <thead>
-    <th>One</th>
-    <th>Two</th>
-    <th>Three</th>
-    <th>Four</th>
+    <tr>
+      <th ng-repeat="header in $ctrl.collection.headers track by $index">
+        {{ header.full_label }}
+      </th>
+    </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-      <td>4</td>
+    <tr ng-repeat="row in $ctrl.collection.rows">
+      <td ng-repeat="column in row track by $index" ng-bind-html="column"></td>
     </tr>
   </tbody>
 </table>

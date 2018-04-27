@@ -6,13 +6,13 @@
     controller: DeviceTableController
   });
 
-  DeviceTableController.$inject = [];
+  DeviceTableController.$inject = ['deviceFactory'];
 
-  function DeviceTableController() {
+  function DeviceTableController(deviceFactory) {
     var vm = this;
 
     // Scope Variables
-
+    vm.collection = [];
 
     // Scope Functions
 
@@ -23,7 +23,12 @@
     ////////////////////////
 
     function onInit() {
-      debugger;
+      getDeviceCollection();
+    }
+
+
+    function getDeviceCollection() {
+      vm.collection = deviceFactory.get();
     }
   }
 })();
