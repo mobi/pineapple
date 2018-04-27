@@ -1,16 +1,17 @@
-describe('Component: dataTable', function() {
+describe('Component: deviceTable', function() {
   'use strict';
 
   module.sharedInjector();
 
   var subject = {
-    module: 'dataTable',
-    component: 'dataTable'
+    module: 'deviceTable',
+    component: 'deviceTable'
   };
 
   var ctrl, scope;
 
   beforeAll(function() { // jshint ignore: line
+    module('deviceFactory');
     module(subject.module);
 
     ////////////////////////
