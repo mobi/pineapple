@@ -4,27 +4,27 @@
   "headers": [
     {
       "label": "Model",
-      "full_label": "Device -> Model",
+      "full_label": "Device -> Model"
     },
     {
       "label": "Person",
-      "full_label": "Device -> Person",
+      "full_label": "Device -> Person"
     },
     {
       "label": "Group",
-      "full_label": "Device -> Group",
+      "full_label": "Device -> Group"
     },
     {
       "label": "Cost Center",
-      "full_label": "Device -> Cost Center",
+      "full_label": "Device -> Cost Center"
     },
     {
       "label": "Device Category",
-      "full_label": "Device -> Device Category",
+      "full_label": "Device -> Device Category"
     },
     {
       "label": "Identifier",
-      "full_label": "Device -> Identifier",
+      "full_label": "Device -> Identifier"
     }
   ],
   "rows": [
@@ -829,6 +829,5 @@
       "<a href=\"#\">352985094787922</a>"
     ]
   ],
-    "collection_entries": 100
-  }
+  "collection_entries": 100
 }
