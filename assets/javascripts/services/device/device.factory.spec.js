@@ -1,11 +1,11 @@
-describe('Factory: undefinedFactory', function() {
+describe('Factory: deviceFactory', function() {
   'use strict';
 
   module.sharedInjector();
 
   var subject = {
-    module: 'mobi.undefinedFactory',
-    factory: 'undefinedFactory'
+    module: 'deviceFactory',
+    factory: 'deviceFactory'
   };
 
   var reference;

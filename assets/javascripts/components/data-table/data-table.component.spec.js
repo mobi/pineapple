@@ -4,7 +4,7 @@ describe('Component: dataTable', function() {
   module.sharedInjector();
 
   var subject = {
-    module: 'mobi.dataTable',
+    module: 'dataTable',
     component: 'dataTable'
   };
 

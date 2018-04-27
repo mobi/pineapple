@@ -15,11 +15,13 @@ module.exports = function (config) {
 
     // list of files / patterns to load in the browser
     files: [
+      'node_modules/angular/angular.js',
+      'node_modules/angular-mocks/angular-mocks.js',
+      'assets/javascripts/**/*.js'
     ],
 
     // list of files to exclude
-    exclude: [
-    ],
+    exclude: [],
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
@@ -27,13 +29,12 @@ module.exports = function (config) {
       'karma-phantomjs-launcher',
       'karma-jasmine',
       'karma-jquery',
-      'karma-ng-html2js-preprocessor',
-      'karma-ng-haml2js-preprocessor'
+      'karma-ng-html2js-preprocessor'
     ],
 
     // preprocessors to use
     preprocessors: {
-      'lib/assets/javascripts/angular/**/**/*.html': ['ng-html2js']
+      'lib/assets/javascripts/**/**/*.html': ['ng-html2js']
     },
 
     // test results reporter to use

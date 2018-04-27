@@ -23,7 +23,8 @@
     "karma-coverage": "^1.1.1",
     "karma-jasmine": "^1.1.1",
     "karma-jquery": "^0.2.2",
-    "karma-ng-html2js-preprocessor": "^1.0.0"
+    "karma-ng-html2js-preprocessor": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.4"
   },
   "dependencies": {
     "angular": "^1.6.10"
