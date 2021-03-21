@@ -1,4 +1,5 @@
 <div class="device-table" *ngIf="deviceTable">
+  <input type="text" [(ngModel)]="query" (keyup)=filterByQuery(query) placeholder="Model e.g. iphone">
   <table class="device-table__table">
     <caption class="device-table__caption">{{ deviceTable.title }}</caption>
     <thead>

@@ -7,11 +7,11 @@ export class FilterService {
 
   constructor() { }
 
-  public searchByFilter(target: any[], type: string, query?: any) {
-    if (query) {
-      return target && target.filter((item) => item[type].toLowerCase().includes(query.toLowerCase()));
-    } else {
-      return target;
-    }
+  public searchByFilter(target: any[], query?: any) {
+  if (query) {
+    return target && target.filter((item) => JSON.stringify(item).toLowerCase().includes(query.toLowerCase()));
+  } else {
+    return target;
   }
+}
 }
