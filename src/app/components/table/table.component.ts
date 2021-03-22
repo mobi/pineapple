@@ -1,22 +1,24 @@
-import {  Component, OnInit } from '@angular/core';
+import {  AfterViewInit, Component, OnInit, ViewChild} from '@angular/core';
 import { DeviceTable } from 'src/app/models/device-table.model';
 import { Device } from 'src/app/models/device.model';
-import { DeviceFilter } from 'src/app/models/device-filter.enum';
 import { DeviceService } from 'src/app/services/device.service';
 import { FilterService } from 'src/app/services/filter.service';
-import { map } from 'rxjs/operators';
-// import 'rxjs/add/operator/map';
+import { MatTableDataSource } from '@angular/material/table';
+import {MatSort} from '@angular/material/sort';
 
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.scss']
 })
-export class TableComponent implements OnInit {
+export class TableComponent implements OnInit, AfterViewInit {
   deviceTable: DeviceTable;
   devices: Device[] = [];
   query: string = '';
   displayedColumns: string[];
+  dataSource = new MatTableDataSource(null);
+
+  @ViewChild(MatSort) sort: MatSort;
 
   constructor(private deviceService: DeviceService,
       private filterService: FilterService
@@ -32,11 +34,21 @@ export class TableComponent implements OnInit {
       this.deviceTable = data;
       this.devices = this.deviceTable.rows;
       this.displayedColumns = this.deviceTable.headers;
+      this.resetDatasource(this.devices);
     });
   }
 
   public filterByQuery(model) {
     this.devices = this.filterService.searchByFilter(this.deviceTable.rows, model);
-    console.log(this.devices)
+    this.resetDatasource(this.devices);
+  }
+  
+  public resetDatasource(devices: Device[]) {
+    this.dataSource = new MatTableDataSource(devices);
+    this.dataSource.sort = this.sort;
+  }
+
+  ngAfterViewInit() {
+    this.dataSource.sort = this.sort;
   }
 }
