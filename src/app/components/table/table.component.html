@@ -18,7 +18,6 @@
     </mat-form-field>
   </div>
 </div>
-
 <!-- table -->
 <div [hidden]="!devices || devices.length == 0"> 
   <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8 device-table">
@@ -47,3 +46,10 @@
 <div *ngIf="!devices || devices.length == 0">
   <mat-card class="device-table">No Result Found</mat-card>
 </div>
+<!-- toaster -->
+<go-toaster
+  header="Heads up!"
+  message="We found something"
+  type="positive">
+</go-toaster>
+

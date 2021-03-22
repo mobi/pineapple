@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { TableComponent } from './components/table/table.component';
 import { DemoMaterialModule } from './modules/material.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { GoToasterModule } from '@tangoe/goponents';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatTableModule,
     MatInputModule,
     MatSortModule,
-    NgbModule
+    NgbModule,
+    GoToasterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

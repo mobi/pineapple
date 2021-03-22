@@ -28,3 +28,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   background: $base-primary;
   color: $base-light
 } 
+
+.logo {
+  width: auto;
+  height: 5rem;
+  transform: rotate(20deg)
+}
