@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {  Component, OnInit } from '@angular/core';
 import { DeviceTable } from 'src/app/models/device-table.model';
 import { Device } from 'src/app/models/device.model';
 import { DeviceFilter } from 'src/app/models/device-filter.enum';
@@ -12,7 +12,7 @@ import { map } from 'rxjs/operators';
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.scss']
 })
-export class TableComponent implements OnInit{
+export class TableComponent implements OnInit {
   deviceTable: DeviceTable;
   devices: Device[] = [];
   query: string = '';
@@ -24,7 +24,6 @@ export class TableComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    // this.setupTable().subscribe();
     this.setupTable();
   }
 
@@ -35,18 +34,9 @@ export class TableComponent implements OnInit{
       this.displayedColumns = this.deviceTable.headers;
     });
   }
-  
-  // private setupTable() {
-  //   return this.deviceService
-  //     .getAll().pipe(
-  //         map((data) => {
-  //           this.deviceTable =data;
-  //           this.devices = this.deviceTable.rows;
-  //         } 
-  //     ))
-  // }
 
   public filterByQuery(model) {
     this.devices = this.filterService.searchByFilter(this.deviceTable.rows, model);
+    console.log(this.devices)
   }
 }

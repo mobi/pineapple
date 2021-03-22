@@ -1,25 +1,11 @@
-<div class="device-table" *ngIf="deviceTable">
-  <input mattype="text" [(ngModel)]="query" (keyup)=filterByQuery(query) placeholder="Model e.g. iphone">
-  <!-- <table class="device-table__table">
-    <caption class="device-table__caption">{{ deviceTable.title }}</caption>
-    <thead>
-      <th *ngFor="let header of deviceTable.headers" class="device-table__th">
-        {{ header | titlecase }}
-      </th>
-    </thead>
-    <tbody>
-      <tr *ngFor="let row of deviceTable.rows">
-        <td *ngFor="let column of deviceTable.headers">
-          {{ row[column] }}
-        </td>
-      </tr>
-    </tbody>
-  </table> -->
+<div class="device-table">
+  <mat-form-field class="search-bar">
+    <mat-label>Filter</mat-label>
+    <input matInput type="text" [(ngModel)]="query" (keyup)=filterByQuery(query) placeholder="Model e.g. iphone">
+  </mat-form-field>
 </div>
-
-<div>
-
-  <table mat-table [dataSource]="this.devices" class="mat-elevation-z8 device-table">
+<div *ngIf="devices && devices.length > 0; else noResult"> 
+  <table mat-table [dataSource]="devices" class="mat-elevation-z8 device-table">
     <ng-container matColumnDef="model">
       <th mat-header-cell *matHeaderCellDef> Model </th>
       <td mat-cell *matCellDef="let device"> {{device.model}} </td>
@@ -41,3 +27,6 @@
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
 </div>
+<ng-template #noResult>
+  <mat-card class="device-table">No Result Found</mat-card>
+</ng-template>
