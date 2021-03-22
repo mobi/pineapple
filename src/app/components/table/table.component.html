@@ -1,21 +1,24 @@
-<div class="device-table">
-  <!-- filter -->
-  <mat-form-field class="search-bar">
-    <mat-label>Filter</mat-label>
-    <input matInput type="text" [(ngModel)]="query" (keyup)=filterByQuery(query) placeholder="Model e.g. iphone">
-  </mat-form-field>
-  <!-- selector for category -->
-  <mat-form-field  appearance="fill">
-    <mat-label>Select a category</mat-label>
-    <mat-select>
-      <mat-option *ngFor="let category of uniqueCategory" [value]="category">
-        <div (click)="filterByQuery(category)">
-          {{category}}
-        </div>
-      </mat-option>
-    </mat-select>
-  </mat-form-field>
+<div class="container">
+  <div class="device-table row justify-content-between">
+    <!-- filter -->
+    <mat-form-field class="search-bar col-md-4">
+      <mat-label>Filter</mat-label>
+      <input matInput type="text" [(ngModel)]="query" (keyup)=filterByQuery(query) placeholder="Model e.g. iphone">
+    </mat-form-field>
+    <!-- selector for category -->
+    <mat-form-field  class="col-md-3" appearance="">
+      <mat-label>Select a category</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let category of uniqueCategory" [value]="category">
+          <div (click)="filterByQuery(category)">
+            {{category}}
+          </div>
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
 </div>
+
 <!-- table -->
 <div [hidden]="!devices || devices.length == 0"> 
   <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8 device-table">

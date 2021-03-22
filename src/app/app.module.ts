@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { TableComponent } from './components/table/table.component';
 import { DemoMaterialModule } from './modules/material.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { DemoMaterialModule } from './modules/material.module';
     FormsModule,
     MatTableModule,
     MatInputModule,
-    MatSortModule
+    MatSortModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
