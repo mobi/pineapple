@@ -4,48 +4,49 @@ import { Device } from 'src/app/models/device.model';
 import { DeviceFilter } from 'src/app/models/device-filter.enum';
 import { DeviceService } from 'src/app/services/device.service';
 import { FilterService } from 'src/app/services/filter.service';
-
+import { map } from 'rxjs/operators';
+// import 'rxjs/add/operator/map';
 
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.scss']
 })
-export class TableComponent implements OnInit {
-
+export class TableComponent implements OnInit{
   deviceTable: DeviceTable;
   devices: Device[] = [];
   query: string = '';
+  displayedColumns: string[];
 
   constructor(private deviceService: DeviceService,
       private filterService: FilterService
-    ) { }
+  ) { 
+  }
 
   ngOnInit(): void {
+    // this.setupTable().subscribe();
     this.setupTable();
   }
 
   private setupTable(): void {
     this.deviceService.getAll().subscribe((data: DeviceTable) => {
-      console.log(data);
       this.deviceTable = data;
-      this.devices = this.deviceTable && this.deviceTable.rows;
+      this.devices = this.deviceTable.rows;
+      this.displayedColumns = this.deviceTable.headers;
     });
   }
+  
+  // private setupTable() {
+  //   return this.deviceService
+  //     .getAll().pipe(
+  //         map((data) => {
+  //           this.deviceTable =data;
+  //           this.devices = this.deviceTable.rows;
+  //         } 
+  //     ))
+  // }
 
-  // public filterByPerson(person: string) {
-  //   this.deviceTable.rows = this.filterService.searchByFilter(this.devices, person);
-  // }
-  // public filterByGroup(query: string) {
-  //   this.devices.forEach((device) => {
-  //     console.log(JSON.stringify(device));
-  //   })
-  //   this.deviceTable.rows = this.filterService.searchByFilter(this.devices, query);
-  // }
   public filterByQuery(model) {
-    this.deviceTable.rows = this.filterService.searchByFilter(this.devices, model);
+    this.devices = this.filterService.searchByFilter(this.deviceTable.rows, model);
   }
-  // public filterByCategory(model) {
-  //   this.deviceTable.rows = this.filterService.searchByFilter(this.devices, model);
-  // } 
 }

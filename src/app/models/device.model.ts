@@ -1,5 +1,5 @@
 export interface Device {
-  category: string;
+  device_category: string;
   group: string;
   model: string;
   person: string;
