@@ -3,4 +3,5 @@ export interface Device {
   group: string;
   model: string;
   person: string;
+  category: string;
 }

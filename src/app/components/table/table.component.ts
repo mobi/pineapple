@@ -17,15 +17,16 @@ export class TableComponent implements OnInit, AfterViewInit {
   devices: Device[] = [];
   query: string = '';
   displayedColumns: string[];
+  uniqueCategory: string[] = [];
   dataSource = new MatTableDataSource(null);
+  
 
   @ViewChild(MatSort) sort: MatSort;
   @ViewChild(MatPaginator) paginator: MatPaginator;
 
   constructor(private deviceService: DeviceService,
-      private filterService: FilterService
-  ) { 
-  }
+      public filterService: FilterService
+  ) {}
 
   ngOnInit(): void {
     this.setupTable();
@@ -37,11 +38,12 @@ export class TableComponent implements OnInit, AfterViewInit {
       this.devices = this.deviceTable.rows;
       this.displayedColumns = this.deviceTable.headers;
       this.resetDatasource(this.devices);
+      this.getUniqueCategory();
     });
   }
 
-  public filterByQuery(model) {
-    this.devices = this.filterService.searchByFilter(this.deviceTable.rows, model);
+  public filterByQuery(query) {
+    this.devices = this.filterService.searchByFilter(this.deviceTable.rows, query);
     this.resetDatasource(this.devices);
   }
   
@@ -54,5 +56,14 @@ export class TableComponent implements OnInit, AfterViewInit {
   ngAfterViewInit() {
     this.dataSource.sort = this.sort;
     this.dataSource.paginator = this.paginator;
+  }
+
+  public getUniqueCategory() {
+    this.uniqueCategory = [];
+    this.devices.forEach((device) => {
+      if (!this.uniqueCategory.includes(device.category)) {
+        this.uniqueCategory.push(device.category);
+      }
+    })
   }
 }
