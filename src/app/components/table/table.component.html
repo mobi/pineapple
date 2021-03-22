@@ -26,7 +26,9 @@
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
+  <mat-paginator class="device-table" [pageSizeOptions]="[10, 20, 50, 100]" showFirstLastButtons></mat-paginator>
 </div>
-<ng-template [hidden]="device && devices.length > 0">
+<div *ngIf="!devices || devices.length == 0">
   <mat-card class="device-table">No Result Found</mat-card>
-</ng-template>
+</div>
+  

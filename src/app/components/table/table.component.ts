@@ -5,6 +5,7 @@ import { DeviceService } from 'src/app/services/device.service';
 import { FilterService } from 'src/app/services/filter.service';
 import { MatTableDataSource } from '@angular/material/table';
 import {MatSort} from '@angular/material/sort';
+import {MatPaginator} from '@angular/material/paginator'
 
 @Component({
   selector: 'app-table',
@@ -19,6 +20,7 @@ export class TableComponent implements OnInit, AfterViewInit {
   dataSource = new MatTableDataSource(null);
 
   @ViewChild(MatSort) sort: MatSort;
+  @ViewChild(MatPaginator) paginator: MatPaginator;
 
   constructor(private deviceService: DeviceService,
       private filterService: FilterService
@@ -46,9 +48,11 @@ export class TableComponent implements OnInit, AfterViewInit {
   public resetDatasource(devices: Device[]) {
     this.dataSource = new MatTableDataSource(devices);
     this.dataSource.sort = this.sort;
+    this.dataSource.paginator = this.paginator;
   }
 
   ngAfterViewInit() {
     this.dataSource.sort = this.sort;
+    this.dataSource.paginator = this.paginator;
   }
 }
